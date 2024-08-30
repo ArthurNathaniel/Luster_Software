@@ -30,6 +30,7 @@
 
         <a href="receipt_form.php"> Generate Reciept</a>
         <a href="view_receipts.php"> Receipt Management</a>
+        <a href="partial_payment.php"> Partial Payment</a>
 
         <h3><span class="icon"><i class="fas fa-file-invoice-dollar"></i></span> Invoice</h3>
 

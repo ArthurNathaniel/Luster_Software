@@ -21,5 +21,5 @@
 
 <link rel="icon" href="./images/logo.png" sizes="180x180" type="image/png">
 <link rel="apple-touch-icon" sizes="180x180" href="./images/logo.png">
-<link rel="icon" href="./images/logo.jpg" sizes="180x180" type="image/jpg">
-<link rel="apple-touch-icon" sizes="180x180" href="./images/logo.jpg">
+<link rel="icon" href="./images/logo.png" sizes="180x180" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="./images/logo.png">

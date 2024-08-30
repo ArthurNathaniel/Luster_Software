@@ -29,7 +29,7 @@ if (!isset($_SESSION['email'])) {
             <tr>
                 <!-- <th>Service ID</th> -->
                 <th>Service Name</th>
-                <th>Action</th>
+                <!-- <th>Action</th> -->
             </tr>
             <?php
             // Include database connection file
@@ -45,7 +45,7 @@ if (!isset($_SESSION['email'])) {
                     echo "<tr>";
                     // echo "<td>" . $row["id"] . "</td>";
                     echo "<td>" . $row["service_name"] . "</td>";
-                    echo "<td><a href='edit_service.php?id=" . $row["id"] . "'>Edit</a> | <a href='delete_service.php?id=" . $row["id"] . "'>Delete</a></td>";
+                    // echo "<td><a href='edit_service.php?id=" . $row["id"] . "'>Edit</a> | <a href='delete_service.php?id=" . $row["id"] . "'>Delete</a></td>";
                     echo "</tr>";
                 }
             } else {

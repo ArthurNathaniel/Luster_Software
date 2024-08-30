@@ -57,7 +57,8 @@ $conn->close();
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: #25624d;
+            color: #fff;
         }
     </style>
 </head>

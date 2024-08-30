@@ -390,6 +390,19 @@ text-transform: uppercase;
             background-color: #25624d;
             color: #fff;
           }
+          .action-links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+          }
+          .action-links a{
+           color: #25624d;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border: none;
+          }
 @media only screen and (max-width: 1110px) {
     .sidebar_all {
         width: 70%;
@@ -409,3 +422,5 @@ text-transform: uppercase;
           .forms_all{
             padding: 0 5%;
           }
+        
+}
