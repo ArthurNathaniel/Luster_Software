@@ -57,11 +57,11 @@ if (!isset($_SESSION['email'])) {
         <div class="nav_logo"></div>
         <div class="navbar_details">
             <div class="nav_one">
-                <p><strong>Location: </strong>Atasemamso Kumasi</p>
-                <p><strong>Tel: </strong>+233 54 299 9995 / +233 20 500 0111</p>
+                <p><strong>Location: </strong>Tema - Ghana</p>
+                <p><strong>Tel: </strong>+233 24 007 9570 / +233 54 217 2430</p>
             </div>
             <div class="nav_two">
-            <p><strong>WhatsApp: </strong>+233 54 299 9995</p>
+            <p><strong>WhatsApp: </strong>+233 54 217 2430</p>
             </div>
         </div>
     </div>

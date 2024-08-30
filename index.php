@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Rub Haven - Home</title>
+    <title>Luster Cleaning Solutions</title>
     <?php include("cdn.php"); ?>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
@@ -21,7 +21,7 @@
             margin-top: 20px;
         }
         .welcome_text h2{
-            color: #c8af66;
+            color: #25624d;
             margin-bottom: 20px;
         }
         .home_btn{
@@ -32,7 +32,7 @@
         .home_btn button{
             width: 100%;
             height: 50px;
-            background-color: #c8af66;;
+            background-color: #25624d;
            color: #fff;
            border: none;
         }
@@ -45,10 +45,10 @@
 </head>
 <body>
     <div class="home_all">
-       <img src="./images/splash.png" alt="">
+       <img src="./images/logo.png" alt="">
         <div class="welcome_text">
             <h2 id="typedText"></h2>
-            <p id="typedHeading">Welcome to The Rub Haven mobile app, your dedicated companion for mastering financial efficiency with ease.</p>
+            <p id="typedHeading">Welcome to Luster Cleaning Solution app, your dedicated companion for mastering financial efficiency with ease.</p>
         </div>
         <div class="home_btn" id="typedHeadings">
             <a href="welcome.php">
@@ -75,7 +75,7 @@
 
         // Typed.js initialization
         var typed = new Typed('#typedText', {
-            strings: ["THE RUB HAVEN MOBILE APP"],
+            strings: ["STAY GREEN, STAY CLEAN"],
             typeSpeed: 50, // Typing speed in milliseconds
             backSpeed: 20, // Backspacing speed in milliseconds
             loop: false, // Whether to loop the typing animation

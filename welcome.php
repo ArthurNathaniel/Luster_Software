@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Rub Haven</title>
+    <title>Luster Cleaning Solutions</title>
     <?php include("cdn.php"); ?>
     <link rel="stylesheet" href="./css/base.css">
    <style>
@@ -52,7 +52,7 @@
     align-items: center;
     gap: 30px;
     color: #fff;
-    background-color: #c8af66;
+    background-color:#25624d;
     border: none;
 
 }
@@ -77,12 +77,12 @@
 }
 
 .welcome_swiper img{
-  object-fit: contain;
+  /* object-fit: contain; */
     height: 300px;
 }
 
 .welcome_all span{
-    color: #c8af66;
+    color:#25624d;
 }
 
 .swiper-pagination-bullet {
@@ -90,7 +90,7 @@
     height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,10px));
     display: inline-block;
     border-radius: var(--swiper-pagination-bullet-border-radius,10%);
-    background: var(--swiper-pagination-bullet-inactive-color, #c8af66);
+    background: var(--swiper-pagination-bullet-inactive-color,#25624d);
     /* opacity: var(--swiper-pagination-bullet-inactive-opacity, .52); */
 }
 
@@ -113,18 +113,16 @@
     width: 100%;
     height: 50px;
     margin-bottom: 20px;
-    border: 2px solid #c8af66;
+    border: 2px solid#25624d;
     background-color: transparent;
-    color: #c8af66;
+    color:#25624d;
 }
 
 .up{
-    background-color: #c8af66 !important;
+    background-color:#25624d !important;
     color: #fff !important;
 }
-span {
-font-family: "Syne", sans-serif;
-}
+
 
    </style>
 </head>
@@ -132,7 +130,7 @@ font-family: "Syne", sans-serif;
 <body>
     <div class="welcome_all">
         <div class="welcome_title">
-            <h1><span>THE RUB HAVEN MOBILE APP </span> </h1>
+            <h1><span>Luster Cleaning Solutions</span> </h1>
             <p>
                 The ultimate mobile tool for financial secretaries to efficiently manage and optimize cash flow.
             </p>
@@ -141,10 +139,10 @@ font-family: "Syne", sans-serif;
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="./images/1.png" alt="">
+                        <img src="./images/hero_1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./images/2.png" alt="">
+                        <img src="./images/about.jpg" alt="">
                     </div>
                 </div>
 

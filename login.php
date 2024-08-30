@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="password" id="password" name="password" required>
             </div>
 
-            <div class="form">
+            <div class="formjhj">
                 <input type="checkbox" id="togglePassword" class="toggle-checkbox">
                 <label for="togglePassword" class="toggle-label">Show Password</label>
             </div>

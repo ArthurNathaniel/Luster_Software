@@ -49,7 +49,7 @@ $conn->close();
 
     <style>
         th {
-            background-color: rgb(190, 2, 2);
+            background-color:#25624d;
             color: #fff;
         }
 
@@ -57,7 +57,7 @@ $conn->close();
             margin-block: 20px;
             margin-left: 5%;
             padding: 15px 35px;
-            background-color: rgb(190, 2, 2);
+            background-color:#25624d;
             border: none;
             color: #fff;
             text-transform: uppercase;
@@ -80,7 +80,7 @@ $conn->close();
         <div class="nav_logo"></div>
         <div class="nav_title">
             <h1>INVOICE</h1>
-            <p><strong>Tel: </strong>+233 54 299 9995 / +233 20 500 0111</p>
+            <p><strong>Tel: </strong>+233 24 007 9570 / +233 54 217 2430</p>
 
         </div>
     </div>
@@ -134,8 +134,8 @@ $conn->close();
 
         <div class="payment_details">
             <h2>Payment Info:</h2>
-            <p><strong>Mobile Money Number: </strong>+233 54 299 9995</p>
-            <p><strong>Mobile Money Name: </strong>The Rub Haven</p>
+            <p><strong>Mobile Money Number: </strong>+233 24 007 9570 </p>
+            <p><strong>Mobile Money Name: </strong>Luster Cleaning Solutions</p>
 
 
         </div>
@@ -145,7 +145,7 @@ $conn->close();
         <div class="nav_logo"></div>
         <div class="nav_title">
             <h1>INVOICE</h1>
-            <p><strong>Tel: </strong>+233 54 299 9995 / +233 20 500 0111</p>
+            <p><strong>Tel: </strong>+233 24 007 9570 / +233 54 217 2430</p>
         </div>
     </div>
     <script>
@@ -161,7 +161,7 @@ $conn->close();
             const element = document.getElementById('content');
             // Options for PDF generation
             const options = {
-                filename: 'The_Rub_Haven-' + billedTo + '.pdf', // Set PDF filename with billed to name
+                filename: 'Luster_Cleaning_Solutions-' + billedTo + '.pdf', // Set PDF filename with billed to name
                 image: {
                     type: 'jpeg',
                     quality: 0.98
