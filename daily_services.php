@@ -56,7 +56,7 @@ if (isset($_GET['date'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Revenue by Service -  The Rub Haven </title>
+    <title>Daily Revenue by Service</title>
     <?php include 'cdn.php' ?>
     <link rel="stylesheet" href="./css/base.css">
 </head>

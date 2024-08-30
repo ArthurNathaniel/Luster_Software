@@ -69,7 +69,7 @@ function formatRevenue($revenue)
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monthly Revenue by Service - The  Rub Haven </title>
+    <title>Monthly Revenue by Service -  </title>
     <?php include 'cdn.php' ?>
     <link rel="stylesheet" href="./css/base.css">
 </head>

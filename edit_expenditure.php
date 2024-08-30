@@ -60,7 +60,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Expenditure - The  Rub Haven </title>
+    <title>Edit Expenditure -  </title>
     <?php include 'cdn.php' ?>
     <link rel="stylesheet" href="./css/base.css">
 </head>

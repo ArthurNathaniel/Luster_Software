@@ -42,7 +42,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Print Client Details - The  Rub Haven </title>
+    <title>Print Client Details -  </title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/client.css">
     <link rel="stylesheet" href="./css/invoice.css">
