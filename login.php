@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Start session and redirect to dashboard
             session_start();
             $_SESSION['email'] = $email;
-            header("Location: dashboard.php");
+            header("Location: all_net.php");
             exit();
         } else {
             $error_message = "Invalid email or password.";
