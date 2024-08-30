@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Onest", sans-serif;
+}
+
+body {
+    font-family: "Onest", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sora", sans-serif;
+}
+
+.logo {
+    height: 95px;
+    width: 150px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading{
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 7px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.form{
+    margin-top: 15px;
+}
+.forms input{
+    width: 100%;
+    height: 44px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding-left: 3%;
+}
+
+.forms button{
+    width: 100%;
+    height: 44px;
+    background-color: #25624d;
+    color: #fff;  
+    border: none;
+    border-radius: 5px;
+}
+
+
+.forms_all{
+    padding: 0 25%;
+    margin-block: 70px;
+}
+.title h1{
+    text-align: center;
+    font-size: 30px;
+    color: #25624d;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.toggle-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+   
+}
+
+.toggle-label { 
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    user-select: none; 
+}
+
+.toggle-label:hover,
+.toggle-checkbox:hover {
+    color: #25624d; 
+}
+
+.error_message {
+    transition: opacity 0.6s ease-out;
+    background-color: rgba(250, 128, 114, 0.281);
+    padding: 0 5%;
+    padding-block: 15px;
+    color: rgb(158, 17, 17);
+}
