@@ -15,6 +15,9 @@ if (!isset($_SESSION['email'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Luster Cleaning Solutions in Tema, Ghana, your trusted partner for spotless homes and offices. From domestic cleaning to carpet steam cleaning and end of lease cleaning, we deliver excellence in every service. Powered by Nathstack Tech's software, our dedicated companion helps you master financial efficiency with ease.">
+    <meta name="keywords" content="cleaning services, Tema, Ghana, domestic cleaning, carpet steam cleaning, end of lease cleaning, financial efficiency, Nathstack Tech">
+    <meta name="author" content="Luster Cleaning Solutions">
     <title>Add Service</title>
     <?php include 'cdn.php' ?>
     <link rel="stylesheet" href="./css/base.css">
